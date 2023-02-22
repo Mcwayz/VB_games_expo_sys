@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Games_Expo.exe" version="1.0.0.0" publicKeyToken="0cfd16e1748fe956" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Games_Expo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Games_Expo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Games_Expo.exe" size="96184">
+      <assemblyIdentity name="Games_Expo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZKIahTzrezk3eDqX1M97AZOfKUNWCUqgqw/OB3AZVDY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Games_Expo.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Chilu-PC\Chilu" issuerKeyHash="92fb75802efcc41200df0e7bd5546696e83cbd6d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>o8HW3Gt/GIdJ1+UefLQdg0uk5ZyAApa8rxqA3r7QlPY=</DigestValue></Reference></SignedInfo><SignatureValue>kDWCyo6h+y6LfAxC9IK9bve+aGTF5/TWlgUb4+p6kmXXqYZmhxLjps+u1NeiBni/xh6oR1HzioWRFQyFHNX6vTCrRpPNSV87FXh9Ho7smU8CsuyeiA0ozj9Mg+EQy4SAOHoP7QslWBjGknMByUlSQS2brY0P/BWFKL21TpzdGcE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nNmsWxcc4xUbOw5vniwI2yC7SBH3gGZRp1cpLL3rxdViWO3YQzeCinVw+htDZOX79g5u85sh+ghjHtbQJPIcO6lMT55dmfVVzLkjl/BO169OOjHHeKQ/VxZF1+yFYVJbzQrw8kiVFudTCaJGzVfL6Ou+SqAXS96IdbKY0/p4kv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f694d0bede801aafbc9602809ce5a44b831db47c1ee5d74987187f6bdcd6c1a3" Description="" Url=""><as:assemblyIdentity name="Games_Expo.exe" version="1.0.0.0" publicKeyToken="0cfd16e1748fe956" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Chilu-PC\Chilu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ud29tXpqlb+OGwW/3KRCQgY+W4Zt4LgDJHbflkuYd0w=</DigestValue></Reference></SignedInfo><SignatureValue>BJHVYVfW/6V1jHBy1AFawC56Tx53GRGn+YPiH8mLLVN1ocPzRLLFftxme9lZ14h2wQXDtUk1yF0Hm+LioflZ4mrINerSH2r6wj/yKXKSb4mVmdoVToQHpOhPxwI774R5HB5jk7c03M2ONH2FhZncYMumpHbVuOTxm4+6vJ8ndo8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nNmsWxcc4xUbOw5vniwI2yC7SBH3gGZRp1cpLL3rxdViWO3YQzeCinVw+htDZOX79g5u85sh+ghjHtbQJPIcO6lMT55dmfVVzLkjl/BO169OOjHHeKQ/VxZF1+yFYVJbzQrw8kiVFudTCaJGzVfL6Ou+SqAXS96IdbKY0/p4kv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHLPghNm3Wp1BweX0sWsBRTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQwBoAGkAbAB1AC0AUABDAFwAQwBoAGkAbAB1MB4XDTE5MDQyOTEwNDE1OVoXDTIwMDQyODE2NDE1OVowJzElMCMGA1UEAx4cAEMAaABpAGwAdQAtAFAAQwBcAEMAaABpAGwAdTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnNmsWxcc4xUbOw5vniwI2yC7SBH3gGZRp1cpLL3rxdViWO3YQzeCinVw+htDZOX79g5u85sh+ghjHtbQJPIcO6lMT55dmfVVzLkjl/BO169OOjHHeKQ/VxZF1+yFYVJbzQrw8kiVFudTCaJGzVfL6Ou+SqAXS96IdbKY0/p4kv0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCHeX1G4B0jY0TlE+caWLoW8x6d+iCb31kdVPLDKQCU24xcRM13tKBtlFm5PtJI+H5ef+PEV0Al1i+FXv2tiTf5fklybyoxg3tusn3XU5VbXWWjVS/N+UqXm+UirGc2zXl6Rwf6F+rGqpzZy35yPszxOjZlSswlAmLqgttBWodECg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
